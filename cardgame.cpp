@@ -3,10 +3,12 @@
 #include <string>
 using namespace std;
 
-struct Number
+class Number
 {
-
-  int num1, num2, sum, extracard;
+    public:
+     
+    int num1, num2, sum, extracard;
+  
 };
 
 void card1 (int num1, int num2, int num3, int sum);
